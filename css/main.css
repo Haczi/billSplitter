@@ -1,0 +1,118 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  background-color: #333;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ddd;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+  background-color: #ddd;
+}
+
+.top {
+  padding: 2em 0;
+  background-color: #1d1d64;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.top h1 {
+  margin-bottom: 0.5em;
+  color: #6565ef;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #333;
+}
+
+.bottom input {
+  margin-bottom: 1em;
+  padding: 0.2em 0;
+}
+
+.bottom p {
+  margin: 1em 0;
+}
+
+.bottom .count {
+  margin-top: 1em;
+  padding: 1em 0;
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background: #1d1d64;
+  border: none;
+  -webkit-box-shadow: 0 0 3px black;
+          box-shadow: 0 0 3px black;
+  color: #ddd;
+  font-size: 1rem;
+  font-weight: bolder;
+  border-radius: 5px;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+.bottom .count:hover {
+  background: #0c0c3b;
+}
+
+.bottom select {
+  padding: 0.2em 0;
+}
+
+.bottom .cost-info {
+  display: none;
+  font-weight: bold;
+  padding: 0 1em;
+  text-align: center;
+}
+
+.bottom .error {
+  font-size: .8rem;
+  color: #b80606;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
